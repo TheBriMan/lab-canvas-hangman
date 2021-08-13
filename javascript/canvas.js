@@ -5,30 +5,32 @@ class HangmanCanvas {
   }
 
   createBoard() {
-    // ... your code goes here
+    this.ctx.clearRect(0, 0,1200,800);
   }
 
   drawLines() {
-    // ... your code goes here
+    this.ctx.beginPath()
+      this.ctx.arc(100,50,30,0,100,false)
+      this.ctx.stroke()
   }
 
   writeCorrectLetter(index) {
-    // ... your code goes here
+    // not sure
   }
 
   writeWrongLetter(letter, errorsLeft) {
-    // ... your code goes here
+    // not sure
   }
 
   drawHangman(errorsLeft) {
-    // ... your code goes here
+    // not sure
   }
 
   gameOver() {
-    // ... your code goes here
+    // not sure
   }
 
   winner() {
-    // ... your code goes here
+    // not sure
   }
 }
